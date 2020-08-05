@@ -15,7 +15,6 @@ export class Table extends ExcelComponent {
     toHTML() {
         return createTable(20);
     }
-
     onMousedown(event) {
         if (shouldResize(event)) {
             resizeHandler(this.$root, event)
