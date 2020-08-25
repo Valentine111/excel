@@ -80,6 +80,7 @@ class Dom {
             return res;
         }, {})
     }
+
     addClass(className) {
         this.$el.classList.add(className);
         return this;
